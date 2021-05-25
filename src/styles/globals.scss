@@ -8,16 +8,20 @@
   --green: #BADC58;
   --white: #fff;
   --black: #000;
+
+  --background: #FAFAFC;
+  --title: #1D164D;
+  --placeholder: #B4B4B4;
 }
 
-html {
-  @media (max-width: 1440px) {
-    font-size: 90%;
-  }
-  @media (max-width: 1366px) {
-    font-size: 80%;
-  }
-}
+// html {
+//   @media (max-width: 1440px) {
+//     font-size: 90%;
+//   }
+//   @media (max-width: 1366px) {
+//     font-size: 80%;
+//   }
+// }
 
 body {
   font-family: 'Roboto', sans-serif;

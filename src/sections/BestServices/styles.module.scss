@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  max-height: 768px;
+}
+
+.maxWidth {
+  flex: 1;
+  max-width: 1366px;
+  padding: 0 9rem;
+  background-image: url("../../../public/bloco_services.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-y: 0;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: right;
+  gap: 4rem;
+  width: 50%;
+  height: 100%;
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--title);
+  }
+
+  p {
+    font-size: 1rem;
+    color: #BCBCBC;
+  }
+
+  button {
+    float: left;
+    width: 150px;
+
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+
+    background: var(--green);
+    color: var(--white);
+    
+    box-shadow: 0px 4px 4px rgba(79, 79, 79, 0.13);
+    transition: filter 0.2s;
+
+    &:hover {
+      box-shadow: 0px 10px 40px rgba(79, 79, 79, 0.1);
+      filter: brightness(0.95)
+    }
+  }
+}

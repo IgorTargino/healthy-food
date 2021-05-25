@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  max-height: 768px;
+  background-color: var(--background);
+}
+
+.maxWidth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+
+  max-width: 1366px;
+  padding: 2.5rem 9rem;
+  gap: 2.5rem;
+ 
+}
+
+.title {
+  text-align: center;
+  h3{
+    font-size: 2rem;
+    color: var(--title);
+  }
+
+  p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #9E9BAF;
+  }
+}
+
+.recipes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  gap: 2rem;
+}

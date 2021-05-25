@@ -1,9 +1,72 @@
 .container {
-  max-width: 1400px;
+  display: flex;
+  justify-content: center;
   height: 100vh;
+  max-height: 768px;
+}
+
+.maxWidth {
+  flex: 1;
+  max-width: 1366px;
   padding: 0 9rem;
-  background-image: url("../../assets/Illustration.svg");
+  background-image: url("../../../public/Illustration.svg");
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: 0;
+
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10rem;
+
+    h2 {
+      font-size: 4rem;
+      font-weight: 600;
+      color: var(--title);
+    }
+  
+    form {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 35%;
+      height: 48px;
+
+      gap: 1rem;
+      margin-top: 3rem;
+      input {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+        border: 1px solid var(--title);
+
+        font-size: 1.125rem;
+
+        &::placeholder {
+          color: var(--placeholder);
+        }
+      }
+      button {
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        padding: 1rem;
+
+        background-color: var(--green);
+        box-shadow: 0px 4px 4px rgba(79, 79, 79, 0.13);
+        
+        transition: filter 0.2s;
+
+        &:hover {
+          filter: brightness(0.95);
+          box-shadow: 0px 10px 40px rgba(79, 79, 79, 0.1);
+        }
+      }
+    }
+  }
+
 }
