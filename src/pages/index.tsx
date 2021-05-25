@@ -1,11 +1,15 @@
-import styles from '../styles/Home.module.scss'
+import { Fragment } from "react";
+import HealthyFood from "../sections/HeathlyFood";
+import styles from "../styles/Home.module.scss";
 
 function Home() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  )
+    <Fragment>
+      <div className={styles.container}>
+        <HealthyFood />
+      </div>
+    </Fragment>
+  );
 }
 
 export default Home;
