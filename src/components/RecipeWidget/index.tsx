@@ -11,7 +11,7 @@ const RecipeWidget = ({img, title}: Props) => {
     <div className={styles.container}>
       <img src={img} />
       <div className={styles.content}>
-        <h3>{title}</h3>
+        <h3>{title}</h3> 
         <button type="button"> See Recipe</button>
       </div>
     </div>

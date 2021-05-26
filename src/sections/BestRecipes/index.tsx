@@ -9,7 +9,7 @@ const BestRecipes = () => {
         <div className={styles.title}>
           <h3>Our Best Recipes</h3>
           <p>
-            Far far away, behind the word mountains, far from the countries{" "}
+            Far far away, behind the word mountains, far from the countries
             <br /> Vakalia and Consonantia, there live the blind texts.
           </p>
         </div>

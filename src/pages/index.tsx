@@ -1,6 +1,7 @@
 import BestRecipes from "../sections/BestRecipes";
 import BestServices from "../sections/BestServices";
 import HealthyFood from "../sections/HeathlyFood";
+import ReadOurBlog from "../sections/ReadOurBlog";
 import styles from "../styles/Home.module.scss";
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
       <HealthyFood />
       <BestRecipes />
       <BestServices />
+      <ReadOurBlog />
     </main>
   );
 }

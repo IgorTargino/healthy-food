@@ -3,7 +3,6 @@
   justify-content: center;
   height: 100vh;
   max-height: 768px;
-  background-color: var(--background);
 }
 
 .maxWidth {
@@ -15,12 +14,12 @@
   max-width: 1366px;
   padding: 2.5rem 9rem;
   gap: 2.5rem;
-
 }
 
 .title {
   text-align: center;
-  h3{
+  
+  h2{
     font-size: 2rem;
     color: var(--title);
   }
@@ -31,12 +30,4 @@
     line-height: 19px;
     color: #9E9BAF;
   }
-}
-
-.recipes {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-content: center;
-  gap: 2rem;
 }
