@@ -1,25 +1,32 @@
 .container {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 
 .maxWidth {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center;
-  max-width: 1366px;
   flex: 1;
 
-  padding: 1;
+  max-width: 1366px;
+  padding: 2.5rem 9rem;
+  gap: 2.5rem;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
   small {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
-    padding: 2rem;
+    padding: 1.5rem;
   }
 }
 

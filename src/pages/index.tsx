@@ -8,14 +8,14 @@ import styles from "../styles/Home.module.scss";
 
 function Home() {
   return (
-    <main className={styles.container}>
+    <>
       <HealthyFood />
       <BestRecipes />
       <BestServices />
       <ReadOurBlog />
       <Membership />
       <Footer />
-    </main>
+    </>
   );
 }
 
