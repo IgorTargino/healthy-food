@@ -9,7 +9,7 @@ const HealthyFood = () => {
     <section className={styles.container}>
       <div className={styles.maxWidth}>
         <Header />
-        <div>
+        <div className={styles.content}>
           <h2>
             Ready for
             <br />

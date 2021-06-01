@@ -1,6 +1,5 @@
 import React from "react";
 import Carousel from "../../components/Carousel";
-import PostWidget from "../../components/PostWidget";
 
 import styles from "./styles.module.scss";
 
@@ -18,11 +17,6 @@ const ReadOurBlog = () => {
         <div className={styles.carousel}>
           <Carousel />
         </div>
-        <PostWidget
-          img={"./bloco_image_1.svg"}
-          title={"Quick-start guide to nuts and seeds"}
-          author={"Kevin Ibrahim"}
-        />
       </div>
     </section>
   );
