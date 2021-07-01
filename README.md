@@ -1,34 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/IgorTargino/podcastr?color=%2304D361&style=flat">
 
-## Getting Started
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/IgorTargino/podcastr?style=flat">
+  
+  <a href="https://github.com/IgorTargino/podcastr/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/IgorTargino/podcastr?style=flat">
+  </a>
+    
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=flat">
+  
+</p>
 
-First, run the development server:
+## 🧐 Sobre o projeto
 
-```bash
-npm run dev
-# or
-yarn dev
+Uma Landing Page de comidas saudáveis. <br>
+<a align="center" target="blank" href="healthy-food-nine.vercel.app">
+    <img alt="Site Healthy-Food" src="https://img.shields.io/static/v1?label=site&message=LetMeAsk&color=4953B8&style=flat&logo=vercel">
+</a>
+
+## 🎨 Layout
+
+### Tela Desktop
+
+<div align="center">
+  <img width="100%" src="./.github/landing-page.png"/>
+</div>
+
+---
+## Como executar o projeto
+### Pré-requisitos
+- git 
+- Node.js
+- NPM ou Yarn
+
+### Instalação
 ```
+# Abra o terminal e copie este repositório com o comando
+$ git clone https://github.com/IgorTargino/healthy-food.git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Acesse a pasta do projeto no prompt de comando 
+$ cd healthy-food
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Instale as dependências
+yarn install
+ou
+$ npm install
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# Execute a aplicação
+$ yarn dev
+ou
+$ npm run dev
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Acesse http://localhost:3000 no seu navagador.
 
-## Learn More
+```
+## 🚀 Tecnologias 
+Tecnologias utilizadas para desenvolver o projeto:
+- react.js
+- typescript
+- sass
+## 🦸‍♂️ **Autor**
 
-To learn more about Next.js, take a look at the following resources:
+<p>
+ <sub><strong>🌟 Igor Targino Marinho🌟</strong></sub>
+</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![Linkedin Badge](https://img.shields.io/badge/-IgorTargino-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/igor-targino/)](https://www.linkedin.com/in/igor-targino/)
+[![Gmail Badge](https://img.shields.io/badge/-igortargino01@gmail.com-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:igortargino01@gmail.com)](mailto:igortargino01@gmail.com)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+>Este projeto foi desenvolvido por **[Igor Targino](https://github.com/IgorTargino)**
+Se gostou, dá ⭐, vai me ajudar 😉
