@@ -14,7 +14,7 @@
 ## 🧐 Sobre o projeto
 
 Uma Landing Page de comidas saudáveis. <br>
-<a align="center" target="blank" href="healthy-food-nine.vercel.app">
+<a align="center" target="blank" href="https://healthy-food-nine.vercel.app/">
     <img alt="Site Healthy-Food" src="https://img.shields.io/static/v1?label=site&message=HealthyFood&color=4953B8&style=flat&logo=vercel">
 </a>
 
