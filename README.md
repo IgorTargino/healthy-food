@@ -1,10 +1,10 @@
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/IgorTargino/heatlhyfood?color=%2304D361&style=flat">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/IgorTargino/healthy-food?color=%2304D361&style=flat">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/IgorTargino/heatlhyfood?style=flat">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/IgorTargino/healthy-food?style=flat">
   
-  <a href="https://github.com/IgorTargino/heatlhyfood/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/IgorTargino/heatlhyfood?style=flat">
+  <a href="https://github.com/IgorTargino/healthy-food/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/IgorTargino/healthy-food?style=flat">
   </a>
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=flat">
